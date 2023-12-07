@@ -7,7 +7,7 @@ const Maps = () => {
     libraries: ['places'],
   });
 
-  const [map, setMap] = useState(null);
+  const [map, setMap] = useState<any | null>(null);
 
   const markers = [
     { lat: 20, lng: 78 },
