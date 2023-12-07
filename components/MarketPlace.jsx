@@ -122,7 +122,7 @@ function MarketPlace() {
     <>
       <div className="border-b border-gray-100  mt-6 w-[80%] mx-auto">
         <h2 className="text-white text-center font-semibold text-5xl leading-loose uppercase tracking-wide">
-          Real Estate MarketPlace
+          Carbon Credit MarketPlace
         </h2>
       </div>
       {loading ? (

@@ -195,13 +195,13 @@ export default function HomeListings() {
         >
           <div className="border-b border-gray-500  mb-6">
             <h2 className="text-black text-center font-semibold text-5xl leading-loose uppercase tracking-wide">
-              Property Tokenization
+              Carbon Offset Project Registry
             </h2>
           </div>
           <div>
             <div className="grid md:grid-cols-2 md:gap-6 ">
               <InputField
-                placeholder="Property Name"
+                placeholder="Project Name"
                 className="my-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 value={formState.selectedLabel}
                 disabled={false}
@@ -259,7 +259,7 @@ export default function HomeListings() {
               <InputField
                 typeT="number"
                 disabled={false}
-                placeholder="Area [In Square Feet]"
+                placeholder="PCO2"
                 className="my-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 value={formState.selectedArea}
                 onChange={(value) =>
@@ -272,7 +272,7 @@ export default function HomeListings() {
             <div className="grid md:grid-cols-2 md:gap-6 ">
               <div>
                 <InputField
-                  placeholder="Description"
+                  placeholder="Project Description"
                   disabled={false}
                   typeT="text"
                   className="my-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
