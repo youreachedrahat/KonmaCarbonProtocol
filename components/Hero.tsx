@@ -139,7 +139,7 @@ const Hero = () => {
        CARBON LEDGER
 
       </h1>
-        <span className="sm:block text-2xl sm:text-4xl font-extrabold"> Find You're Green </span>
+        <span className="sm:block text-2xl sm:text-4xl font-extrabold"> Find You&lsquo;re Green </span>
 
       <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
       A concise record of emissions and offsets, driving transparency for a sustainable, low-carbon future.
