@@ -4,6 +4,7 @@ import MarketPlace from "../components/MarketPlace";
 import { useWallet } from "@meshsdk/react";
 import GlowingBlob from "../components/GlowingBlob";
 import Maps from "../components/Maps";
+
 import CommunityBoard from "../components/CommunityBoard";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <>
       <div className="z-10 relative">
+        
         <Hero />
         <Maps />
         <HomeListings />

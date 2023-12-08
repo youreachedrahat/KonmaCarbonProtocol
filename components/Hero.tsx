@@ -1,6 +1,7 @@
 import { useAnimate } from "framer-motion";
 import { useRef } from "react";
 import { ReactNode } from "react";
+import Illustration from "../utils/Illustration"
 interface MouseImageTrailProps {
   children: ReactNode;
   images: string[];
@@ -112,6 +113,8 @@ const MouseImageTrail: any = ({
 };
 
 const Hero = () => {
+
+  
   return (
     <MouseImageTrail
       renderImageBuffer={50}
@@ -129,9 +132,9 @@ const Hero = () => {
         "https://images.unsplash.com/photo-1700728440904-e3fb935d4e25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2207&q=80",
       ]}
     >
-      <section className="mx-auto max-w-screen-2xl md:px-8 px-8 text-white mb-10">
-     
-  <div className="mx-auto max-w-screen-xl px-4 lg:flex  lg:items-center py-72">
+      <section className="mx-auto max-w-screen-2xl md:px-8 px-8 text-white mb-10 relative">
+     <Illustration/>
+  <div className="mx-auto max-w-screen-xl px-4 lg:flex  lg:items-center py-72 pt-56">
     <div className="mx-auto max-w-3xl text-center">
       <h1
         className="bg-gradient-to-r from-blue-600 via-green-400 to-green-300 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
