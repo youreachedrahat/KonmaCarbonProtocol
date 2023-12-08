@@ -104,7 +104,7 @@ export default function EnhancedTable() {
       {!connected || loading ? (
         <>Warning : <span style={{color:"yellow"}}>Connect your wallet !
        </span>
-       
+        </>
        
       ) : (
         <TableContainer component={Paper}>
@@ -146,7 +146,7 @@ export default function EnhancedTable() {
         open={open}
         setOpen={setOpen}
         />
-        </>
+       
 
         </TableContainer>
       )}
