@@ -15,7 +15,12 @@ export default function Home() {
       <div className="z-10 relative">
         
         <Hero />
+         <div className="w-[80%] mb-5">
+          <h2 className="text-white text-center font-semibold text-5xl leading-loose uppercase tracking-wide">
+          Carbon Offset Project Across world
+        </h2>
         <Maps />
+        </div>
         <HomeListings />
         <CommunityBoard />
         {connected ? <MarketPlace /> : <></>}
