@@ -105,12 +105,7 @@ export default function EnhancedTable() {
         <>Warning : <span style={{color:"yellow"}}>Connect your wallet !
        </span>
        
-       <CommunityModal
-        open={open}
-        setOpen={setOpen}
-        />
-        </>
-
+       
       ) : (
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -147,7 +142,12 @@ export default function EnhancedTable() {
               ))}
             </TableBody>
           </Table>
-          
+          <CommunityModal
+        open={open}
+        setOpen={setOpen}
+        />
+        </>
+
         </TableContainer>
       )}
     </>
