@@ -10,7 +10,7 @@ function ImageUpload({
 }) {
   const [isImageLoading, setIsImageLoading] = useState(true);
   const [Loader2, setLoader2] = useState(false);
-  console.log("api state",process.env.NEXT_PUBLIC_PINATA_API_KEY,process.env.NEXT_PUBLIC_PINATA_SECRET_KEY);
+  // console.log("api state",process.env.NEXT_PUBLIC_PINATA_API_KEY,process.env.NEXT_PUBLIC_PINATA_SECRET_KEY);
   const PINATA_API_KEY = process.env.NEXT_PUBLIC_PINATA_API_KEY;
   const PINATA_API_SECRET = process.env.NEXT_PUBLIC_PINATA_SECRET_KEY;
   const [file, setFile] = useState(null);
